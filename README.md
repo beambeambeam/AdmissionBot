@@ -5,10 +5,16 @@
 
 ## Start Development
 ### 1. Clone repo
-```git clone https://github.com/SupeemAFK/AdmissionBot.git```
+```
+git clone https://github.com/SupeemAFK/AdmissionBot.git
+```
 
 ### 2. Install poetry
-```poetry install```
+```
+poetry install
+```
 
 ### 3. Start development
-```fastapi dev main.py```
+```
+fastapi dev main.py
+```
