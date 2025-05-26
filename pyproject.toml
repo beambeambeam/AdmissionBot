@@ -1,3 +1,7 @@
+[project]
+name = "admissionbot-rag"
+requires-python = ">=3.9"
+
 [tool.poetry]
 name = "admissionbot-rag"
 version = "0.1.0"
@@ -17,11 +21,9 @@ uvicorn = "^0.34.0"
 pypdf = "^5.3.0"
 sentence-transformers = "^3.4.1"
 langchain-chroma = "^0.2.1"
+gradio = "^5.31.0"
 
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
-
-[project]
-requires-python = ">=3.9"
